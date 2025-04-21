@@ -1,14 +1,3 @@
-# README
-
-A [JSON-Schema](https://json-schema.org) for formalizing dialectics.
-
-## The Schema
-
-See [dialectic-schema.json](./dialectic-schema.json)
-
-## An example
-
-```json
 {
     "argument": "Video games are a waste of time and have no benefits.",
     "counter-arguments": [
@@ -23,13 +12,4 @@ See [dialectic-schema.json](./dialectic-schema.json)
         }
     ]
 }
-```
 
-## Validating a JSON
-
-This repo also comes with a validator, in the form of a PHP script. Here's how
-to use it.
-
-```
-php validator.php <some json file here>
-```
