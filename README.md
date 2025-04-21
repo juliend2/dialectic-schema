@@ -42,4 +42,5 @@ This repo also comes with a validator, in the form of a PHP script. Here's how
 to use it.
 
 ```
+php validator.php <some json file here>
 ```
