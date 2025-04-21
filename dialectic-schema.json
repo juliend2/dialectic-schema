@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "argument": { "type": "string" },
+        "counter-arguments": {
+            "type": "array",
+            "items": { "$ref": "#" }
+        }
+    },
+    "required": ["argument"]
+}
+
