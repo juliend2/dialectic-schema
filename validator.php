@@ -20,5 +20,5 @@ try {
   $schema->in(json_decode($dialectic_json));
   print "JSON is valid with the dialectic-schema.\n";
 } catch(Exception $e) {
-  print $e;
+  print $e->getMessage();
 }
