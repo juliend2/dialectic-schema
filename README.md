@@ -31,5 +31,9 @@ This repo also comes with a validator, in the form of a PHP script. Here's how
 to use it.
 
 ```
-php validator.php <some json file here>
+# Install the validator:
+composer install
+
+# Use the validator:
+php validator.php <some json file path>
 ```
