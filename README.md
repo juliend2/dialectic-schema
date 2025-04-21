@@ -4,18 +4,7 @@ A [JSON-Schema](https://json-schema.org) for formalizing dialectics.
 
 ## The Schema
 
-```json
-{
-    "type": "object",
-    "properties": {
-        "argument": { "type": "string" },
-        "counter-arguments": {
-            "type": "array",
-            "items": { "$ref": "#" }
-        }
-    }
-}
-```
+See [dialectic-schema.json](./dialectic-schema.json)
 
 ## An example
 
