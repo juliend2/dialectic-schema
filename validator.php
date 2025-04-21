@@ -21,4 +21,5 @@ try {
   print "JSON is valid with the dialectic-schema.\n";
 } catch(Exception $e) {
   print $e->getMessage();
+  exit(1);
 }
