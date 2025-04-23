@@ -1,6 +1,6 @@
 # README
 
-A [JSON-Schema](https://json-schema.org) for formalizing dialectics.
+A [JSON-Schema](https://json-schema.org) for formalizing dialogue of arguments and counter-arguments.
 
 ## The Schema
 
